@@ -1,0 +1,26 @@
+# Виртуальное окружение
+venv/
+env/
+.env
+
+# Базы данных и ключи
+*.db
+*.key
+encryption.key
+password_manager.db
+
+# Настройки пользователя
+config.json
+
+# Временные файлы Python
+__pycache__/
+*.py[cod]
+
+# Папки сборки PyInstaller
+dist/
+build/
+*.spec
+
+# Логи и системные файлы
+*.log
+.DS_Store
